@@ -210,7 +210,8 @@
   h4,
   h5,
   h6 {
-    color: tint($text-color, 25%);
+    // color: tint($text-color, 25%);
+    color: $text-color;
   }
 }
 
