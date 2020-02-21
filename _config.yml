@@ -47,6 +47,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
+  - jemoji
 feed:
   path: atom.xml
 

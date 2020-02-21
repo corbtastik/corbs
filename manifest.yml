@@ -1,0 +1,7 @@
+---
+applications:
+- name: corbs
+  memory: 512MB
+  path: _site
+  buildpacks:
+  - staticfile_buildpack
