@@ -7,9 +7,10 @@
   margin-bottom: 2rem;
   padding-bottom: 2rem;
 
-  &:not(:last-child) {
-    border-bottom: 1px solid $border-color;
-  }
+  // @corbett
+  // &:not(:last-child) {
+  //   border-bottom: 1px solid $border-color;
+  // }
 
   a {
     color: inherit;
