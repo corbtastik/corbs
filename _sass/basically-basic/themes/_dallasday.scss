@@ -6,3 +6,7 @@ $background-color: #E2F5FE !default;
 $code-background-color: #EFEAFC !default;
 $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #F0F8FF !default;
+
+.fa-calendar, .fa-clock, .fa-search {
+  color: #00BFFE;
+}
