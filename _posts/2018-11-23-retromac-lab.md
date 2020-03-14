@@ -40,6 +40,7 @@ That any 2009-2012 Mac Pro can be brought up to the latest Apple Firmware which 
 | Mac Pro (Mid 2010) | iMacPro 2017 |
 | ------------------ | ------------ |
 | ![RetroMac Setup](/assets/images/retromac/RetroMacSetup.png) | ![RetroMac Setup](/assets/images/retromac/iMacProSetup.png) |
+| ![RetroMac GB4](/assets/images/retromac/cMP-geekbench4.png) | ![RetroMac Setup](/assets/images/retromac/iMacProSetup.png) |
 | macOS Mojave 10.14.6 | macOS Mojave 10.14.6 |
 | Boot ROM 144.0.0.0.0 | Boot ROM 1037.40.124.0.0 |
 | MacPro5,1 | iMacPro1,1 |
@@ -47,7 +48,7 @@ That any 2009-2012 Mac Pro can be brought up to the latest Apple Firmware which 
 | 128 GB 1333 MHz DDR3 | 32 GB 2666 MHz DDR4 |
 | 1 TB NVMe startup disk | 1 TB NVMe startup disk |
 | Sapphire Pulse Radeon RX 580 8 GB | Radeon Pro Vega 56 8 GB |
-| GB4 2900/24000 | GB4 5300/34000 |
+| GB4 2800/26000 | GB4 5300/34000 |
 | GB4 GPU Metal 134000 | GB4 GPU Metal 135000 |
 | GB4 GPU OpenCL 131000 | GB4 GPU OpenCL 140000 |
 | AJA Disk Test 1400 MB/s read | AJA Disk Test 3000 MB/s read |

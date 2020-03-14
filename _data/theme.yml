@@ -11,13 +11,13 @@ t:
   search: "Search"
   site_search: "Site Search"
   results_found: "Result(s) found"
-  search_placeholder_text: "Enter your search term..."
+  search_placeholder_text: "Search..."
   home: "Home"
   newer: "Newer"
   older: "Older"
   email: "Email"
   subscribe: "Subscribe"
-  read_more: "Read More"
+  read_more: " "
   posts: "Posts"
   page: "Page"
   of: "of"
@@ -26,7 +26,7 @@ t:
 
 # Google Fonts
 google_fonts:
-  - name: "Lato"
+  - name: "Open Sans"
     weights: "400,400i,700,700i"
 
 # Link to specific internal pages in the navigation.

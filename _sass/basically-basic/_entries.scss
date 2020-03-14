@@ -4,13 +4,8 @@
 
 .entry {
   @include clearfix();
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   padding-bottom: 2rem;
-
-  // @corbett
-  // &:not(:last-child) {
-  //   border-bottom: 1px solid $border-color;
-  // }
 
   a {
     color: inherit;
@@ -226,7 +221,7 @@
 
 /* Read more link */
 .more-link {
-  font-size: 75%;
+  // font-size: 75%;
   font-weight: bold;
   text-decoration: none;
 }
