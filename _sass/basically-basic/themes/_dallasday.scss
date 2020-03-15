@@ -6,7 +6,41 @@ $background-color: #E2F5FE !default;
 $code-background-color: #EFEAFC !default;
 $border-color: rgba($text-color, 0.5) !default;
 $overlay-color: #F0F8FF !default;
+$sidebar-background-color: #FAFAFA !default;
+$contact-list-color: #9E9E9E !default;
 
 .fa-calendar, .fa-clock, .fa-search {
   color: #00BFFE;
+}
+
+.fa-at {
+  color: #2D228C;
+}
+
+.fa-github {
+  color: #293238;
+}
+
+.fa-linkedin {
+  color: #33429A;
+}
+
+.fa-instagram-square {
+  color: #D43965;
+}
+
+.fa-youtube-square {
+  color: #C1291C;
+}
+
+.fa-facebook-square {
+  color: #427BF7;
+}
+
+.fa-twitter {
+  color: #4391E3;
+}
+
+.fa-rss {
+  color: #5A6E79;
 }
