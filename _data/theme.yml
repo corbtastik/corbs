@@ -28,6 +28,8 @@ t:
 google_fonts:
   - name: "Open Sans"
     weights: "400,400i,700,700i"
+  - name: "Raleway"
+    weights: "400,400i,700,700i"
 
 # Link to specific internal pages in the navigation.
 # Create a custom list to override the default setting of including links to all

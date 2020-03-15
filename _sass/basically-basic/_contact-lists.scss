@@ -5,6 +5,8 @@
 .contact-list {
   @include list-unstyled;
 
+  font-family: $secondary-font-family;
+
   .icon {
     margin-right: 0.25em;
   }

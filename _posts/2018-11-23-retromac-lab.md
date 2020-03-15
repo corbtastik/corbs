@@ -40,7 +40,7 @@ That any 2009-2012 Mac Pro can be brought up to the latest Apple Firmware which 
 | Mac Pro (Mid 2010) | iMacPro 2017 |
 | ------------------ | ------------ |
 | ![RetroMac Setup](/assets/images/retromac/RetroMacSetup.png) | ![RetroMac Setup](/assets/images/retromac/iMacProSetup.png) |
-| ![RetroMac GB4](/assets/images/retromac/cMP-geekbench4.png) | ![RetroMac Setup](/assets/images/retromac/iMacProSetup.png) |
+| ![RetroMac GB4](/assets/images/retromac/cMP-geekbench4.png) | ![RetroMac Setup](/assets/images/retromac/imacpro-geekbench4.png) |
 | macOS Mojave 10.14.6 | macOS Mojave 10.14.6 |
 | Boot ROM 144.0.0.0.0 | Boot ROM 1037.40.124.0.0 |
 | MacPro5,1 | iMacPro1,1 |

@@ -7,6 +7,14 @@
  * Free for personal and commercial use under the MIT license
  * https://github.com/mmistakes/jekyll-theme-basically-basic/blob/master/LICENSE
 */
+// var iconElement = document.getElementById('icon');
+// var options = {
+//     from: 'fa-bars',
+//     to: 'fa-arrow-right',
+//     animation: 'rubberBand'
+// };
+//
+// iconate(iconElement, options);
 
 var menuItems = document.querySelectorAll('#sidebar li');
 
