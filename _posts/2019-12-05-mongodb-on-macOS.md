@@ -3,7 +3,7 @@ layout: post
 title:  "mongoDB on macOS"
 sub_title: "Mongo meet Mac, Mac meet Mongo"
 date:   2019-12-05 12:00:00 -0600
-categories: mongo macOS MacPro
+categories: mongodb macOS MacPro
 ---
 
 This is the first of several posts where I walk through installing MongoDB on different substrates.  This post looks at installing and configuring on macOS without Homebrew which entails the following high-level steps.

@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Example Content"
+title:  "Sample Content"
+sub_title: "Element styleguide"
 date:   2012-02-07 12:00:00 -0600
 categories: jekyll styleguide
 ---

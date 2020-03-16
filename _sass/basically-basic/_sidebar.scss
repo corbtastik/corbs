@@ -39,30 +39,12 @@
       opacity: 1;
     }
 
-    /* line hover effect */
     a {
       position: relative;
       color: $text-color;
 
-      &::before {
-        display: block;
-        position: absolute;
-        top: 50%;
-        left: -3rem;
-        width: 0;
-        height: 10px;
-        -webkit-transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
-        transition: width 0.3s cubic-bezier(0, 0, 0.3, 1);
-        background-color: $base-color;
-        content: "";
-      }
-
       &:hover {
         color: $accent-color;
-      }
-
-      &:hover::before {
-        width: 2.5rem;
       }
     }
   }
