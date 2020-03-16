@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "mongoDB on Docker"
-sub_title: "docker container run mongodb!"
+title:  "MongoDB on Docker"
+sub_title: "docker container run..."
 date:   2020-03-14 12:00:00 -0600
 categories: mongodb docker
 ---
 
-Docker for development environments makes for an easy peazy way to run standalone MongoDB instances on any OS.  This post takes a jaunt through running MongoDB on Docker and shows options for managing data in a containerized environment.
+Docker for development environments makes for an easy peazy way to run standalone MongoDB instances on any OS.  This post takes a jaunt through running MongoDB on Docker and shows options for managing data inside and outside of the container.
 
 ## Build a MongoDB Docker Image
 
@@ -17,7 +17,7 @@ The Dockerfile allows for building 2 types of images, one for [MongoDB Community
 Export the following build-time environment variables, download Docker assets and build a tagged image.
 
 ```bash
-export DOCKER_USERNAME=corbsmartin
+export DOCKER_USERNAME=[YOUR-DOCKER-HUB-USERNAME]
 export MONGO_PACKAGE=mongodb-enterprise
 export MONGO_REPO=repo.mongodb.com
 export MONGODB_VERSION=4.2
@@ -68,7 +68,7 @@ docker exec -it m0 /usr/bin/mongo --eval "db.version()"
 
 ## Storing data on the Host
 
-By default the database data will be saved and managed by Docker and for dev environments this works quite well as long you don't remove/delete the container (stopping is ok).  If you'd like to isolate the database data files from the container life-line then you can mount storage from your host into the container.
+By default database data will be saved and managed by Docker and for dev environments this works quite well as long you don't remove/delete the container (stopping is ok).  If you'd like to isolate database data files from the container lifeline then mount storage from the host into the container.
 
 ```bash
 # create a spot for each mongod instance's data files
@@ -114,7 +114,6 @@ docker exec -it m0 sh
 1. [Docker for your OS](https://www.docker.com/products/docker-desktop)
 2. [An account on Docker Hub](https://hub.docker.com/)
 3. [MongoDB Image](https://hub.docker.com/_/mongo/)
-4. [MongoDB on Docker Docs](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-with-docker/)
 
 ## References
 
