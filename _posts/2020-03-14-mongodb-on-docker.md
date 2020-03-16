@@ -6,7 +6,17 @@ date:   2020-03-14 12:00:00 -0600
 categories: mongodb docker
 ---
 
-Docker for development environments makes for an easy peazy way to run standalone MongoDB instances on any OS.  This post takes a jaunt through running MongoDB on Docker and shows options for managing data inside and outside of the container.
+Docker for development environments makes for an easy peazy way to run standalone MongoDB instances on any OS.
+
+This post takes a jaunt through running MongoDB on Docker and shows options for managing data inside and outside of the container.
+
+1. [Build a MongoDB Docker Image](#build-a-mongodb-docker-image)
+1. [Run the MongoDB Image](#run-the-mongodb-image)
+1. [Storing data on the Host](#storing-data-on-the-host)
+1. [Stop the MongoDB Container](#stop-the-mongodb-container)
+1. [Access MongoDB](#access-mongodb)
+1. [Requirements](#requirements)
+1. [References](#references)
 
 ## Build a MongoDB Docker Image
 
@@ -36,7 +46,7 @@ Successfully built 4660c448dfe2
 Successfully tagged corbsmartin/mongo-enterprise:4.2
 ```
 
-## Run the MongoDB image
+## Run the MongoDB Image
 
 * Ensure the MongoDB image is listed in your local Docker repo
 * View image details
@@ -92,7 +102,7 @@ docker container stop m0
 docker container rm m0
 ```
 
-## Access the Container
+## Access MongoDB
 
 The MongoDB standalone instance will be available from your host on port 27017 (if you ran as stated ^^^).  Connecting with the mongo shell is as easy as...
 
