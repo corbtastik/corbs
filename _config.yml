@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
+  - jemoji  
 feed:
   path: atom.xml
 
