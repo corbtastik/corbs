@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "West Texas Roadtrip"
+title:  "Marathon Texas"
 sub_title: "Just lightin’ out for the territories"
 date:   2020-07-20 12:00:00 -0600
 categories: texas marathon alpine marfa fort-davis van-horn
