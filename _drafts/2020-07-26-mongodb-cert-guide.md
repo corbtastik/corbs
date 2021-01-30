@@ -82,6 +82,31 @@ db.products.insert(
 * db.collection.update()
 * db.collection.findAndModify()
 
+## Updates
+
+```javascript
+// upsert if GOOG dne and push a value into hourly array
+db.stocks.updateOne({_id: "GOOG"}, {$push: {hourly: 562.776}}, {upsert: true});
+// update GOOG with 2 new hourly stock values
+db.stocks.updateOne({_id: "GOOG"}, {$push: {hourly: {$each: [562.790, 559.123]}}})
+
+// upsert a student named "joe" if he/she dne and push a scores array
+db.students.updateOne({name: "joe"}, {$push: {scores: {$each: [90, 92, 85]}}}, {upsert: true})
+// upserted document
+// {
+// 	"_id" : ObjectId("5f39a2a399b4d7541d845ef4"),
+// 	"name" : "joe",
+// 	"scores" : [
+// 		90,
+// 		92,
+// 		85
+// 	]
+// }
+
+
+
+```
+
 ## Indexes
 
 ## Data Modeling

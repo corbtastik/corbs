@@ -22,29 +22,29 @@
     <ul>
     {% if post.date %}
       <li>
-        <i class="fas fa-calendar"></i>
         <time class="entry-time" datetime="{{ post.date | date_to_xmlschema }}">
           {{ post.date | date: "%m.%d.%Y" }}
         </time>
+        <!-- <i class="fas fa-calendar"></i>         -->
       </li>
     {% endif %}
-    {% if post.read_time %}
-      <li>
-        <i class="fas fa-clock"></i>
-        {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }}
-      </li>
-    {% endif %}
+    <!-- {% if post.read_time %} -->
+      <!-- <li> -->
+        <!-- {% capture read_time %}{% include read-time.html %}{% endcapture %}{{ read_time | strip }} -->
+        <!-- <i class="fas fa-clock"></i>         -->
+      <!-- </li> -->
+    <!-- {% endif %} -->
     </ul>
   </footer>
   <div class="entry-excerpt">
     {% if post.excerpt %}
       {{ post.excerpt | markdownify }}
-      <p>
-        <a href="{{ post.url | relative_url }}" class="more-link">
-          {{ site.data.theme.t.read_more | default: 'More' }}
-          <i class="fas fa-angle-double-right fa-lg"></i>
-        </a>
-      </p>
+      <!-- <p> -->
+        <!-- <a href="{{ post.url | relative_url }}" class="more-link"> -->
+          <!-- {{ site.data.theme.t.read_more | default: 'More' }} -->
+          <!-- <i class="fas fa-angle-double-right fa-sm"></i> -->
+        <!-- </a> -->
+      <!-- </p> -->
     {% endif %}
   </div>
 </article>
