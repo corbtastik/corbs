@@ -109,6 +109,11 @@ a {
   }
 }
 
+/* Dashed red border */
+hr {
+  border-top: 1px dashed $base-color;
+}
+
 // *:focus {
 //   border-color: $accent-color;
 //   outline: none;
